@@ -2083,7 +2083,7 @@ export class TldrawApp extends StateManager<TDSnapshot> {
 
         style.textContent = `
           @font-face {
-            font-family: 'Caveat Brush';
+            font-family: 'Chalkboard';
             src: url(data:application/x-font-woff;charset=utf-8;base64,${fonts.caveat}) format('woff');
             font-weight: 500;
             font-style: normal;
@@ -2114,7 +2114,7 @@ export class TldrawApp extends StateManager<TDSnapshot> {
         TLDR.warn('Could not find tldraw-assets.json file.')
       }
     } else {
-      style.textContent = `@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Code+Pro&family=Source+Sans+Pro&family=Crimson+Pro&display=block');`
+      style.textContent = `@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&family=Crimson+Pro&display=block');`
     }
 
     defs.append(style)

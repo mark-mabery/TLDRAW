@@ -412,7 +412,7 @@ const FontIcon = styled('div', {
   variants: {
     fontStyle: {
       [FontStyle.Script]: {
-        fontFamily: 'Caveat Brush',
+        fontFamily: 'Chalkboard',
       },
       [FontStyle.Sans]: {
         fontFamily: 'Recursive',

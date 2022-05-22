@@ -5,7 +5,7 @@ const styles = new Map<string, HTMLStyleElement>()
 const UID = `tldraw-fonts`
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Code+Pro&family=Source+Sans+Pro&family=Crimson+Pro&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&family=Crimson+Pro&display=block');
 
 @font-face {
   font-family: 'Recursive';

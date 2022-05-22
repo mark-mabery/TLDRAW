@@ -84,7 +84,7 @@ const fontSizes = {
 }
 
 const fontFaces = {
-  [FontStyle.Script]: '"Caveat Brush"',
+  [FontStyle.Script]: 'Chalkboard',
   [FontStyle.Sans]: '"Source Sans Pro"',
   [FontStyle.Serif]: '"Crimson Pro"',
   [FontStyle.Mono]: '"Source Code Pro"',
